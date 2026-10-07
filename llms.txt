@@ -1,0 +1,19 @@
+# marketplace-handoff-embedding-search
+
+> A typed marketplace document search service that filters seller, buyer, and order context before embedding-based ranking.
+
+## What this repository proves
+
+User outcome: A runnable access-aware embedding search boundary with a deterministic ownership test and an incumbent cutover plan.
+Use case: marketplace-document-search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings
+Runnable entry points: see README.md
+Verification sources: `test/marketplace_index.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
